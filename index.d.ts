@@ -76,6 +76,11 @@ declare module 'react-native-health' {
       callback: (err: string, results: HealthValue) => void,
     ): void
 
+    getBodyFatPercentageSamples(
+      options: HealthUnitOptions,
+      callback: (err: string, results: HealthValue) => void,
+    ): void
+
     getLatestLeanBodyMass(
       options: HealthUnitOptions,
       callback: (err: string, results: HealthValue) => void,
